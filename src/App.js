@@ -5,12 +5,12 @@ import Navbar from "./components/Navbar";
 import TopHeroSection from "./components/TopHeroSection";
 import "./App.css";
 function App() {
-  const [showModal, setshowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false);
   return (
     <div>
       <Navbar
         onLogin={function () {
-          setshowModal(true);
+          setShowModal(true);
         }}
       />
       <TopHeroSection />
@@ -18,7 +18,7 @@ function App() {
       <Modal
         show={showModal}
         onHide={function () {
-          setshowModal(false);
+          setShowModal(false);
         }}
         size="s"
         aria-labelledby="contained-modal-title-vcenter"
@@ -42,7 +42,7 @@ function App() {
         <Modal.Footer>
           <Button
             onClick={function () {
-              setshowModal(false);
+              setShowModal(false);
             }}
           >
             Close
