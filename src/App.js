@@ -1,23 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useState } from "react";
+import { Button, Modal } from "react-bootstrap";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import TopHeroSection from "./components/TopHeroSection";
+import "./App.css";
 function App() {
+  const [showModal, setshowModal] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar
+        onLogin={function () {
+          setshowModal(true);
+        }}
+      />
+      <TopHeroSection />
+      <HeroSection />
+      <Modal
+        show={showModal}
+        onHide={function () {
+          setshowModal(false);
+        }}
+        size="s"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">Login</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <h4>Pizza World</h4>
+          <div>
+            <input placeholder="username" className="inputbox"></input>
+            <br></br>
+            <input
+              placeholder="password"
+              type="password"
+              className="inputbox"
+            ></input>
+          </div>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button
+            onClick={function () {
+              setshowModal(false);
+            }}
+          >
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }

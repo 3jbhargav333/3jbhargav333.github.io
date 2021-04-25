@@ -1,0 +1,9 @@
+.herosection {
+  flex-direction: row;
+  display: flex;
+  max-width: 100%;
+
+  background-color: black;
+  color: white;
+  height: 100%;
+}
