@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f6f7452.chunk.css",
+    "main.js": "/static/js/main.f6723fd1.chunk.js",
+    "main.js.map": "/static/js/main.f6723fd1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.faf5f507.js",
+    "runtime-main.js.map": "/static/js/runtime-main.faf5f507.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.32662253.chunk.js": "/static/js/2.32662253.chunk.js",
+    "static/js/2.32662253.chunk.js.map": "/static/js/2.32662253.chunk.js.map",
+    "static/js/3.64056eaa.chunk.js": "/static/js/3.64056eaa.chunk.js",
+    "static/js/3.64056eaa.chunk.js.map": "/static/js/3.64056eaa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.0f6f7452.chunk.css.map": "/static/css/main.0f6f7452.chunk.css.map",
+    "static/js/2.32662253.chunk.js.LICENSE.txt": "/static/js/2.32662253.chunk.js.LICENSE.txt",
+    "static/media/hawaiian.0581918d.png": "/static/media/hawaiian.0581918d.png",
+    "static/media/supreme.8722ad15.png": "/static/media/supreme.8722ad15.png",
+    "static/media/TopHero.css": "/static/media/topherowall.6138051d.png",
+    "static/media/veggie.01dc3780.png": "/static/media/veggie.01dc3780.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faf5f507.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.32662253.chunk.js",
+    "static/css/main.0f6f7452.chunk.css",
+    "static/js/main.f6723fd1.chunk.js"
+  ]
+}
